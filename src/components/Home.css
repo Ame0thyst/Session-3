@@ -1,0 +1,149 @@
+/* Pastikan untuk menambahkan file CSS ini di proyek kamu */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+/* CSS untuk slider */
+.slick-slide img {
+  width: 100%;
+  height: auto; /* Pastikan gambar menjaga proporsinya */
+}
+
+/* CSS untuk memastikan ukuran konsisten */
+.slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-slide div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSS untuk menambahkan jarak dan bayangan pada gambar */
+.slick-slide img {
+  object-fit: cover; /* Menjaga proporsi gambar */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+/* Home.css */
+
+/* Styling untuk mode terang */
+
+.text-light {
+  color: #000000; /* warna teks untuk mode terang */
+}
+
+/* Styling untuk mode gelap */
+
+.text-dark {
+  color: #ffffff; /* warna teks untuk mode gelap */
+}
+.bg-dark {
+  background: linear-gradient(
+    to right,
+    #1a202c,
+    #2d3748
+  ); /* warna gelap untuk mode gelap */
+}
+.bg-light {
+  background: linear-gradient(
+    to right,
+    #94a3b8,
+    #f8fafc
+  ); /* warna gelap untuk mode terang */
+}
+
+//
+/* Home.css */
+
+/* Styling untuk mode gelap pada komponen Project */
+.project-dark .bg-dark-card {
+  background: #333333;
+}
+
+.project-dark .bg-dark-header {
+  background: #444444;
+}
+
+.project-dark .bg-dark-footer {
+  background: #555555;
+}
+
+.project-dark .text-dark-description {
+  color: #e0e0e0;
+}
+
+/* Styling untuk mode terang pada komponen Project */
+.project-light .bg-light-card {
+  background: #000000;
+}
+
+.project-light .bg-light-header {
+  background: #597081;
+}
+
+.project-light .bg-light-footer {
+  background: #84b59f;
+}
+
+.project-light .text-light-description {
+  color: #333333;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc; /* Light gray background */
+}
+
+.bg-green-500 {
+  background-color: #48bb78; /* Green background */
+}
+
+/* Dark Mode Styles */
+.project-dark .bg-gray-100 {
+  background-color: #f7fafc; /* Ensure bg-gray-100 stays the same */
+}
+
+.project-dark .bg-green-500 {
+  background-color: #48bb78; /* Ensure bg-green-500 stays the same */
+}
+
+// navbar
+
+/* styles.css */
+.bg-dark-navbar {
+  background: #1f2937; /* Contoh warna navbar gelap */
+}
+
+.text-light-600 {
+  color: #e5e7eb; /* Contoh warna teks terang */
+}
+
+.bg-dark-700 {
+  background-color: #374151; /* Contoh warna latar belakang tombol gelap */
+}
+
+.bg-dark-card {
+  background-color: #1f2937; /* Contoh warna latar belakang kartu proyek gelap */
+}
+
+.bg-dark-header {
+  background-color: #334155; /* Contoh warna header gelap */
+}
+
+.text-dark-description {
+  color: #e5e7eb; /* Contoh warna deskripsi teks terang */
+}
